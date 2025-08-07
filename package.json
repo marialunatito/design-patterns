@@ -1,0 +1,28 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "Implement examples of each design pattern",
+  "keywords": [
+    "desing",
+    "patters"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts"
+  },
+  "homepage": "https://github.com/marialunatito/design-patterns#readme",
+  "bugs": {
+    "url": "https://github.com/marialunatito/design-patterns/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marialunatito/design-patterns.git"
+  },
+  "license": "ISC",
+  "author": "Maria Luna",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "tsx": "^4.20.3"
+  }
+}
