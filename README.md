@@ -21,10 +21,10 @@ The main objective is to strengthen my understanding of software design patterns
 Each pattern is located in its own directory, following a clear and consistent folder structure:
 
 /src
-/pattern-name
+/pattern-type/patter-name
 
 - index.ts
-- example.ts
+- README.md
 
 ## Technologies
 
@@ -37,5 +37,5 @@ To run the examples:
 
 ```bash
 npm install
-npm run dev
+npm run dev-<factory_name>
 ```
