@@ -24,9 +24,14 @@ We need to create factories by part of template and by country.
 
 ```
 📦 abstract-factory/
-├── interfaces/ (factory template email)
-├── products/ (specific classes)
-├── index.ts
+├── email-template
+├──── interfaces/ (factory template email)
+├──── products/ (specific classes)
+├──── index.ts
+├── auth
+├──── interfaces/ (factory for steps authentication)
+├──── products/ (specific classes implementing and factory implementing)
+├──── index.ts
 ```
 
 ## ✅ Benefits
