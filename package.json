@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "dev-factory-method": "tsx src/creational/factory-method/index.ts"
+    "dev-factory-method": "tsx src/creational/factory-method/index.ts",
+    "dev-abstract-factory": "tsx src/creational/abstract-factory/index.ts"
   },
   "homepage": "https://github.com/marialunatito/design-patterns#readme",
   "bugs": {
