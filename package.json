@@ -11,7 +11,8 @@
     "dev-factory-method": "tsx src/creational/factory-method/index.ts",
     "dev-abstract-factory-auth": "tsx src/creational/abstract-factory/auth/index.ts",
     "dev-abstract-factory-email": "tsx src/creational/abstract-factory/email-template/index.ts",
-    "dev-builder-user": "tsx src/creational/builder/create-user/UserBuilder.ts"
+    "dev-builder-user": "tsx --watch src/creational/builder/create-user/UserBuilder.ts",
+    "dev-prototype": "tsx --watch src/creational/prototype/index.ts"
   },
   "homepage": "https://github.com/marialunatito/design-patterns#readme",
   "bugs": {
