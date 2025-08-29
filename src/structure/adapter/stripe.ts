@@ -1,4 +1,4 @@
-import Stripe from "stripe";
+// import Stripe from "stripe";
 
 // domain/ports/PaymentGateway.ts
 export interface ChargeInput {
@@ -35,11 +35,11 @@ export class CheckoutOrder {
 // Adapter
 // mapping, performs integration logic (confirm, errors, status).
 export class StripePaymentAdapter implements PaymentGateway {
-  private client: Stripe;
+  private client: any; // Stripe;
 
-  constructor(apiKey: string) {
-    this.client = new Stripe(apiKey, { apiVersion: "2024-06-20" });
-  }
+  //   constructor(apiKey: string) {
+  //     this.client = new Stripe(apiKey, { apiVersion: "2024-06-20" });
+  //   }
 
   async charge(input: ChargeInput): Promise<ChargeResult> {
     try {
