@@ -3,3 +3,7 @@ export interface EmailPayload {
   subject: string;
   body: string;
 }
+
+export interface EmailSender {
+  sendEmail(payload: EmailPayload): Promise<void>;
+}
