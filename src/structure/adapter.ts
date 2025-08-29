@@ -39,3 +39,19 @@ export class SendGridAdapter implements EmailSender {
     // await sgMail.send(msg)
   }
 }
+
+export class SendSESAdapter implements EmailSender {
+  constructor(private apiKey: string) {
+    // sgMail.setApiKey(apiKey)
+  }
+
+  async sendEmail(payload: EmailPayload): Promise<void> {
+    // here you add mapper
+    const sesInput = {
+      ...payload,
+      // add other fields or the fields named that other form
+    };
+    console.log("[SendSES] would send:", sesInput);
+    // await ses.send(msg)
+  }
+}
