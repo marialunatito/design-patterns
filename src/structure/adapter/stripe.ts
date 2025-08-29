@@ -21,7 +21,7 @@ export interface PaymentGateway {
 export class CheckoutOrder {
   constructor(private gateway: PaymentGateway) {}
 
-  async execute(userId: string, amount: number) {
+  async execute(_: string, amount: number) {
     const result = await this.gateway.charge({
       amountCents: amount * 100,
       currency: "usd",
